@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #182c44;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.number-box{
+    margin-top: 12px;
+    font-size: 70px;
+
+}
+
+.btn{
+    padding: 7px 23px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    padding: 7px 23px;
+    border-radius: 10px;
+    background-color:  #182c44;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: 0.3s ;
+}
